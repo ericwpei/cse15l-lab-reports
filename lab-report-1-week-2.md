@@ -83,3 +83,6 @@ There were more efficient ways of running commands on the server. I typed in the
 <br/>
 
 That concludes the end of my lab report.
+<br/> <br/>
+
+[Go back to home page](https://ericwpei.github.io/cse15l-lab-reports/)
