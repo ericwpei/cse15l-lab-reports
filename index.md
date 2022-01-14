@@ -1,3 +1,6 @@
-eric's index.md
+# __Eric Pei's Coding Blog__
 
-[Lab Report 1](lab-report-1-week-2.html)
+## Lab Reports
+<br/>
+
+* [Week 2](https://ericwpei.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
