@@ -73,15 +73,27 @@ Afterwards, I typed this command (on my client):
 After this, I was able to connect to the remote server without a password.
 
 # Part 6 - Optimizing Remote Running
-There were more efficient ways of running commands on the server. I typed in the command below on my client to list the files in the directory of the server (without connecting to the server):
+There were more efficient ways of running commands on the server. 
+<br/> <br/>
+Normally, to run a command on the server starting from the client, I'd have connect to the server first with
+<br/> <br/>
+`ssh cs15lwi22ado@ieng6.ucsd.edu`
+<br/> <br/>
+Then, I'd type a command, like `ls`, before typing `exit` to return to my client.
+<br/> <br/>
+This whole process would take **37** keystrokes.
+<br/> <br/>
+To make this process faster, I pressed the up arrow on my keyboard to get the last command that I ran (`ssh cs15lwi22ado@ieng6.ucsd.edu`). Then, I typed `"ls"` right after and ran this single command:
 <br/> <br/>
 `ssh cs15lwi22ado@ieng6.ucsd.edu "ls"`
 <br/> <br/>
 
 ![Image](Lab_Report_1_Part_6.png)
-
-<br/>
-
+<br/> <br/>
+This allowed me to show the files in the directory of the server without actually connecting to the server and needing to type `exit` to return to the client.
+<br/> <br/>
+This whole process only took **6** keystrokes, and made remote running much more efficient.
+<br/> <br/>
 That concludes the end of my lab report.
 <br/> <br/>
 
