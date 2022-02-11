@@ -1,5 +1,7 @@
 # __Week 6 Lab Report__
 
+# Streamlining ssh Configuration
+
 I will show you how to log into the remote server without needing to type in your full username. You can choose an alias yourself and use that to log in instead, speeding up the process of logging in.
 <br/> <br/>
 
