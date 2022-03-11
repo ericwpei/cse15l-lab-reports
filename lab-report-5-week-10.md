@@ -58,7 +58,7 @@ The reason this isn't a link is because there are characters between the close b
 <br/> <br/>
 ![Image](Lab_Report_5_3.png)
 <br/> <br/>
-Here is the code in the instructor's `MarkdownParse.java`. The bug is that there is no check to see that `openParen` is 1 index greater than `nextCloseBracket`.
+Here is the code in the instructor's `MarkdownParse.java`. The bug is that there is no check to see that `openParen` is 1 index greater than `nextCloseBracket`. There should be an if statement that checks this, and if it is true, then the line of text is a link and should be added to `toReturn`.
 
 # Test 487
 The test file `487.md` contains:
@@ -80,7 +80,7 @@ And my implementation outputted:
 According to the [CommonMark demo site](https://spec.commonmark.org/dingus/), this test file also contains no links, so the instructor's implementation would be correct.
 <br/> <br/>
 ## The Bug
-The reason `[link](/my uri)` isn't a link is because there is a space separating the text within the parentheses. Spaces before and after the text within the parentheses are fine, but there can't be any spaces in the middle.
+The reason `[link](/my uri)` isn't a link is because there is a space separating the text within the parentheses. Spaces before and after the text within the parentheses are fine, but there cannot be any spaces in the middle.
 <br/> <br/>
 ![Image](Lab_Report_5_5.png)
 <br/> <br/>
